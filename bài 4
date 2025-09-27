@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Info Form</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .form-section { border: 1px solid #ccc; padding: 15px; margin-bottom: 20px; }
+    .form-section h3 { margin-top: 0; }
+    label { display: block; margin: 5px 0; }
+    input[type="text"], input[type="email"], select, textarea {
+      width: 100%; padding: 5px; margin: 3px 0; box-sizing: border-box;
+    }
+    .radio-group, .checkbox-group { margin: 5px 0; }
+    .radio-group label, .checkbox-group label { display: inline-block; margin-right: 15px; }
+    .buttons { margin-top: 20px; }
+    .buttons input { padding: 8px 16px; margin-right: 10px; }
+  </style>
+</head>
+<body>
+  <form>
+    <!-- Basic Info -->
+    <div class="form-section">
+      <h3>Basic Info</h3>
+      <label>Employee ID: <input type="text" value="9"></label>
+      <label>Last Name: <input type="text" value="Dodsworth"></label>
+      <label>First Name: <input type="text" value="Anne"></label>
+      <div class="radio-group">
+        Gender:
+        <label><input type="radio" name="gender"> Male</label>
+        <label><input type="radio" name="gender"> Female</label>
+        <label><input type="radio" name="gender"> XXX</label>
+        <label><input type="radio" name="gender" checked> ZZZ</label>
+      </div>
+      <label>Title: <input type="text" value="Sales Representative"></label>
+      <label>Suffix: <input type="text" value="Ms."></label>
+      <label>BirthDate: <input type="text" value="1969-07-02"></label>
+      <label>HireDate: <input type="text" value="1994-11-15"></label>
+      <label>Reports To: <input type="text" value="Buchanan"></label>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="form-section">
+      <h3>Contact Info</h3>
+      <label>Email: <input type="email" placeholder="name@example.com"></label>
+      <label>Address: <input type="text" value="7 Houndstooth Rd."></label>
+      <label>City: <input type="text" value="London"></label>
+      <label>Region: <input type="text"></label>
+      <label>Postal Code: <input type="text" value="WG2 7LT"></label>
+      <label>Country:
+        <select>
+          <option>United Kingdom</option>
+          <option selected>Russian Federation</option>
+        </select>
+      </label>
+      <label>US Home Phone: <input type="text" value="(234)234-2342"></label>
+      <label>Photo: <input type="text" value="EmpID9.bmp"></label>
+    </div>
+
+    <!-- Optional Info -->
+    <div class="form-section">
+      <h3>Optional Info</h3>
+      <label>Notes:
+        <textarea rows="4">Anne has a BA degree in English from St. Lawrence College. She is fluent in French and German.ZZZ</textarea>
+      </label>
+      <div class="checkbox-group">
+        Preferred Shift:
+        <label><input type="checkbox"> Regular</label>
+        <label><input type="checkbox" checked> Gravy Yard</label>
+      </div>
+      <div class="checkbox-group">
+        Active?<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Info Form</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .form-section { border: 1px solid #ccc; padding: 15px; margin-bottom: 20px; }
+    .form-section h3 { margin-top: 0; }
+    label { display: block; margin: 5px 0; }
+    input[type="text"], input[type="email"], select, textarea {
+      width: 100%; padding: 5px; margin: 3px 0; box-sizing: border-box;
+    }
+    .radio-group, .checkbox-group { margin: 5px 0; }
+    .radio-group label, .checkbox-group label { display: inline-block; margin-right: 15px; }
+    .buttons { margin-top: 20px; }
+    .buttons input { padding: 8px 16px; margin-right: 10px; }
+  </style>
+</head>
+<body>
+  <form>
+    <!-- Basic Info -->
+    <div class="form-section">
+      <h3>Basic Info</h3>
+      <label>Employee ID: <input type="text" value="9"></label>
+      <label>Last Name: <input type="text" value="Dodsworth"></label>
+      <label>First Name: <input type="text" value="Anne"></label>
+      <div class="radio-group">
+        Gender:
+        <label><input type="radio" name="gender"> Male</label>
+        <label><input type="radio" name="gender"> Female</label>
+        <label><input type="radio" name="gender"> XXX</label>
+        <label><input type="radio" name="gender" checked> ZZZ</label>
+      </div>
+      <label>Title: <input type="text" value="Sales Representative"></label>
+      <label>Suffix: <input type="text" value="Ms."></label>
+      <label>BirthDate: <input type="text" value="1969-07-02"></label>
+      <label>HireDate: <input type="text" value="1994-11-15"></label>
+      <label>Reports To: <input type="text" value="Buchanan"></label>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="form-section">
+      <h3>Contact Info</h3>
+      <label>Email: <input type="email" placeholder="name@example.com"></label>
+      <label>Address: <input type="text" value="7 Houndstooth Rd."></label>
+      <label>City: <input type="text" value="London"></label>
+      <label>Region: <input type="text"></label>
+      <label>Postal Code: <input type="text" value="WG2 7LT"></label>
+      <label>Country:
+        <select>
+          <option>United Kingdom</option>
+          <option selected>Russian Federation</option>
+        </select>
+      </label>
+      <label>US Home Phone: <input type="text" value="(234)234-2342"></label>
+      <label>Photo: <input type="text" value="EmpID9.bmp"></label>
+    </div>
+
+    <!-- Optional Info -->
+    <div class="form-section">
+      <h3>Optional Info</h3>
+      <label>Notes:
+        <textarea rows="4">Anne has a BA degree in English from St. Lawrence College. She is fluent in French and German.ZZZ</textarea>
+      </label>
+      <div class="checkbox-group">
+        Preferred Shift:
+        <label><input type="checkbox"> Regular</label>
+        <label><input type="checkbox" checked> Gravy Yard</label>
+      </div>
+      <div class="checkbox-group">
+        Active?<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Info Form</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .form-section { border: 1px solid #ccc; padding: 15px; margin-bottom: 20px; }
+    .form-section h3 { margin-top: 0; }
+    label { display: block; margin: 5px 0; }
+    input[type="text"], input[type="email"], select, textarea {
+      width: 100%; padding: 5px; margin: 3px 0; box-sizing: border-box;
+    }
+    .radio-group, .checkbox-group { margin: 5px 0; }
+    .radio-group label, .checkbox-group label { display: inline-block; margin-right: 15px; }
+    .buttons { margin-top: 20px; }
+    .buttons input { padding: 8px 16px; margin-right: 10px; }
+  </style>
+</head>
+<body>
+  <form>
+    <!-- Basic Info -->
+    <div class="form-section">
+      <h3>Basic Info</h3>
+      <label>Employee ID: <input type="text" value="9"></label>
+      <label>Last Name: <input type="text" value="Dodsworth"></label>
+      <label>First Name: <input type="text" value="Anne"></label>
+      <div class="radio-group">
+        Gender:
+        <label><input type="radio" name="gender"> Male</label>
+        <label><input type="radio" name="gender"> Female</label>
+        <label><input type="radio" name="gender"> XXX</label>
+        <label><input type="radio" name="gender" checked> ZZZ</label>
+      </div>
+      <label>Title: <input type="text" value="Sales Representative"></label>
+      <label>Suffix: <input type="text" value="Ms."></label>
+      <label>BirthDate: <input type="text" value="1969-07-02"></label>
+      <label>HireDate: <input type="text" value="1994-11-15"></label>
+      <label>Reports To: <input type="text" value="Buchanan"></label>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="form-section">
+      <h3>Contact Info</h3>
+      <label>Email: <input type="email" placeholder="name@example.com"></label>
+      <label>Address: <input type="text" value="7 Houndstooth Rd."></label>
+      <label>City: <input type="text" value="London"></label>
+      <label>Region: <input type="text"></label>
+      <label>Postal Code: <input type="text" value="WG2 7LT"></label>
+      <label>Country:
+        <select>
+          <option>United Kingdom</option>
+          <option selected>Russian Federation</option>
+        </select>
+      </label>
+      <label>US Home Phone: <input type="text" value="(234)234-2342"></label>
+      <label>Photo: <input type="text" value="EmpID9.bmp"></label>
+    </div>
+
+    <!-- Optional Info -->
+    <div class="form-section">
+      <h3>Optional Info</h3>
+      <label>Notes:
+        <textarea rows="4">Anne has a BA degree in English from St. Lawrence College. She is fluent in French and German.ZZZ</textarea>
+      </label>
+      <div class="checkbox-group">
+        Preferred Shift:
+        <label><input type="checkbox"> Regular</label>
+        <label><input type="checkbox" checked> Gravy Yard</label>
+      </div>
+      <div class="checkbox-group">
+        Active?<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Info Form</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .form-section { border: 1px solid #ccc; padding: 15px; margin-bottom: 20px; }
+    .form-section h3 { margin-top: 0; }
+    label { display: block; margin: 5px 0; }
+    input[type="text"], input[type="email"], select, textarea {
+      width: 100%; padding: 5px; margin: 3px 0; box-sizing: border-box;
+    }
+    .radio-group, .checkbox-group { margin: 5px 0; }
+    .radio-group label, .checkbox-group label { display: inline-block; margin-right: 15px; }
+    .buttons { margin-top: 20px; }
+    .buttons input { padding: 8px 16px; margin-right: 10px; }
+  </style>
+</head>
+<body>
+  <form>
+    <!-- Basic Info -->
+    <div class="form-section">
+      <h3>Basic Info</h3>
+      <label>Employee ID: <input type="text" value="9"></label>
+      <label>Last Name: <input type="text" value="Dodsworth"></label>
+      <label>First Name: <input type="text" value="Anne"></label>
+      <div class="radio-group">
+        Gender:
+        <label><input type="radio" name="gender"> Male</label>
+        <label><input type="radio" name="gender"> Female</label>
+        <label><input type="radio" name="gender"> XXX</label>
+        <label><input type="radio" name="gender" checked> ZZZ</label>
+      </div>
+      <label>Title: <input type="text" value="Sales Representative"></label>
+      <label>Suffix: <input type="text" value="Ms."></label>
+      <label>BirthDate: <input type="text" value="1969-07-02"></label>
+      <label>HireDate: <input type="text" value="1994-11-15"></label>
+      <label>Reports To: <input type="text" value="Buchanan"></label>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="form-section">
+      <h3>Contact Info</h3>
+      <label>Email: <input type="email" placeholder="name@example.com"></label>
+      <label>Address: <input type="text" value="7 Houndstooth Rd."></label>
+      <label>City: <input type="text" value="London"></label>
+      <label>Region: <input type="text"></label>
+      <label>Postal Code: <input type="text" value="WG2 7LT"></label>
+      <label>Country:
+        <select>
+          <option>United Kingdom</option>
+          <option selected>Russian Federation</option>
+        </select>
+      </label>
+      <label>US Home Phone: <input type="text" value="(234)234-2342"></label>
+      <label>Photo: <input type="text" value="EmpID9.bmp"></label>
+    </div>
+
+    <!-- Optional Info -->
+    <div class="form-section">
+      <h3>Optional Info</h3>
+      <label>Notes:
+        <textarea rows="4">Anne has a BA degree in English from St. Lawrence College. She is fluent in French and German.ZZZ</textarea>
+      </label>
+      <div class="checkbox-group">
+        Preferred Shift:
+        <label><input type="checkbox"> Regular</label>
+        <label><input type="checkbox" checked> Gravy Yard</label>
+      </div>
+      <div class="checkbox-group">
+        Active?
